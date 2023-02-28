@@ -19,7 +19,7 @@
 
 package com.replaymod.replaystudio.util;
 
-import com.github.steveice10.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBuf;
 import com.github.steveice10.packetlib.tcp.io.ByteBufNetOutput;
 
 public class ByteBufExtNetOutput extends ByteBufNetOutput {

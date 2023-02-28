@@ -19,7 +19,7 @@
 
 package com.replaymod.replaystudio.rar.cache;
 
-import com.github.steveice10.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBuf;
 import com.github.steveice10.packetlib.io.NetInput;
 import com.replaymod.replaystudio.util.ByteBufExtNetInput;
 

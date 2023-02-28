@@ -18,12 +18,12 @@
  */
 package com.replaymod.replaystudio.viaversion;
 
-import com.replaymod.replaystudio.lib.viaversion.api.configuration.ViaVersionConfig;
-import com.replaymod.replaystudio.lib.viaversion.api.minecraft.WorldIdentifiers;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.version.BlockedProtocolVersions;
-import com.replaymod.replaystudio.lib.viaversion.libs.fastutil.ints.IntSet;
-import com.replaymod.replaystudio.lib.viaversion.libs.gson.JsonElement;
-import com.replaymod.replaystudio.lib.viaversion.protocol.BlockedProtocolVersionsImpl;
+import com.viaversion.viaversion.api.configuration.ViaVersionConfig;
+import com.viaversion.viaversion.api.minecraft.WorldIdentifiers;
+import com.viaversion.viaversion.api.protocol.version.BlockedProtocolVersions;
+import com.viaversion.viaversion.libs.fastutil.ints.IntSet;
+import com.viaversion.viaversion.libs.gson.JsonElement;
+import com.viaversion.viaversion.protocol.BlockedProtocolVersionsImpl;
 
 // Configured as per recommendations at https://docs.viaversion.com/display/VIAVERSION/Configuration
 public class CustomViaConfig implements ViaVersionConfig {

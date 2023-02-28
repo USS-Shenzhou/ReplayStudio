@@ -18,10 +18,10 @@
  */
 package com.replaymod.replaystudio.viaversion;
 
-import com.github.steveice10.netty.buffer.ByteBuf;
-import com.replaymod.replaystudio.lib.viaversion.ViaAPIBase;
-import com.replaymod.replaystudio.lib.viaversion.api.Via;
-import com.replaymod.replaystudio.lib.viaversion.api.connection.UserConnection;
+import io.netty.buffer.ByteBuf;
+import com.viaversion.viaversion.ViaAPIBase;
+import com.viaversion.viaversion.api.Via;
+import com.viaversion.viaversion.api.connection.UserConnection;
 
 import java.util.SortedSet;
 import java.util.UUID;

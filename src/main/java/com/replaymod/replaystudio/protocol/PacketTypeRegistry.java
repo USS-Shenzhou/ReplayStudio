@@ -18,18 +18,18 @@
  */
 package com.replaymod.replaystudio.protocol;
 
-import com.replaymod.replaystudio.lib.guava.collect.Lists;
-import com.replaymod.replaystudio.lib.viaversion.api.Via;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.AbstractProtocol;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.ProtocolPathEntry;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.packet.State;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.Protocol;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.version.ProtocolVersion;
-import com.replaymod.replaystudio.lib.viaversion.protocols.protocol1_14to1_13_2.Protocol1_14To1_13_2;
-import com.replaymod.replaystudio.lib.viaversion.protocols.protocol1_16to1_15_2.Protocol1_16To1_15_2;
-import com.replaymod.replaystudio.lib.viaversion.protocols.protocol1_17_1to1_17.Protocol1_17_1To1_17;
-import com.replaymod.replaystudio.lib.viaversion.protocols.protocol1_17to1_16_4.Protocol1_17To1_16_4;
-import com.replaymod.replaystudio.lib.viaversion.protocols.protocol1_9to1_8.Protocol1_9To1_8;
+import com.google.common.collect.Lists;
+import com.viaversion.viaversion.api.Via;
+import com.viaversion.viaversion.api.protocol.AbstractProtocol;
+import com.viaversion.viaversion.api.protocol.ProtocolPathEntry;
+import com.viaversion.viaversion.api.protocol.packet.State;
+import com.viaversion.viaversion.api.protocol.Protocol;
+import com.viaversion.viaversion.api.protocol.version.ProtocolVersion;
+import com.viaversion.viaversion.protocols.protocol1_14to1_13_2.Protocol1_14To1_13_2;
+import com.viaversion.viaversion.protocols.protocol1_16to1_15_2.Protocol1_16To1_15_2;
+import com.viaversion.viaversion.protocols.protocol1_17_1to1_17.Protocol1_17_1To1_17;
+import com.viaversion.viaversion.protocols.protocol1_17to1_16_4.Protocol1_17To1_16_4;
+import com.viaversion.viaversion.protocols.protocol1_9to1_8.Protocol1_9To1_8;
 import com.replaymod.replaystudio.viaversion.CustomViaManager;
 import org.apache.commons.lang3.tuple.Pair;
 
@@ -222,8 +222,8 @@ public class PacketTypeRegistry {
                     continue;
                 }
                 AbstractProtocol.ProtocolPacket mapping = entry.getValue();
-                com.replaymod.replaystudio.lib.viaversion.api.protocol.packet.PacketType unmappedPacketType = mapping.getUnmappedPacketType();
-                com.replaymod.replaystudio.lib.viaversion.api.protocol.packet.PacketType mappedPacketType = mapping.getMappedPacketType();
+                com.viaversion.viaversion.api.protocol.packet.PacketType unmappedPacketType = mapping.getUnmappedPacketType();
+                com.viaversion.viaversion.api.protocol.packet.PacketType mappedPacketType = mapping.getMappedPacketType();
                 int oldId = unmappedPacketType != null ? unmappedPacketType.getId() : -1;
                 int newId = mappedPacketType != null ? mappedPacketType.getId() : -1;
                 result.add(Pair.of(oldId, newId));

@@ -18,18 +18,18 @@
  */
 package com.replaymod.replaystudio.viaversion;
 
-import com.replaymod.replaystudio.lib.viaversion.api.Via;
-import com.replaymod.replaystudio.lib.viaversion.api.ViaManager;
-import com.replaymod.replaystudio.lib.viaversion.api.command.ViaVersionCommand;
-import com.replaymod.replaystudio.lib.viaversion.api.connection.ConnectionManager;
-import com.replaymod.replaystudio.lib.viaversion.api.debug.DebugHandler;
-import com.replaymod.replaystudio.lib.viaversion.api.platform.ViaInjector;
-import com.replaymod.replaystudio.lib.viaversion.api.platform.ViaPlatform;
-import com.replaymod.replaystudio.lib.viaversion.api.platform.ViaPlatformLoader;
-import com.replaymod.replaystudio.lib.viaversion.api.platform.providers.ViaProviders;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.ProtocolManager;
-import com.replaymod.replaystudio.lib.viaversion.debug.DebugHandlerImpl;
-import com.replaymod.replaystudio.lib.viaversion.protocol.ProtocolManagerImpl;
+import com.viaversion.viaversion.api.Via;
+import com.viaversion.viaversion.api.ViaManager;
+import com.viaversion.viaversion.api.command.ViaVersionCommand;
+import com.viaversion.viaversion.api.connection.ConnectionManager;
+import com.viaversion.viaversion.api.debug.DebugHandler;
+import com.viaversion.viaversion.api.platform.ViaInjector;
+import com.viaversion.viaversion.api.platform.ViaPlatform;
+import com.viaversion.viaversion.api.platform.ViaPlatformLoader;
+import com.viaversion.viaversion.api.platform.providers.ViaProviders;
+import com.viaversion.viaversion.api.protocol.ProtocolManager;
+import com.viaversion.viaversion.debug.DebugHandlerImpl;
+import com.viaversion.viaversion.protocol.ProtocolManagerImpl;
 
 import java.util.HashSet;
 import java.util.Set;

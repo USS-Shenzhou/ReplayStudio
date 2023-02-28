@@ -19,7 +19,7 @@
 package com.replaymod.replaystudio.protocol.packets;
 
 import com.github.steveice10.opennbt.tag.builtin.CompoundTag;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.version.ProtocolVersion;
+import com.viaversion.viaversion.api.protocol.version.ProtocolVersion;
 import com.replaymod.replaystudio.protocol.Packet;
 import com.replaymod.replaystudio.protocol.PacketType;
 import com.replaymod.replaystudio.protocol.PacketTypeRegistry;

@@ -19,8 +19,8 @@
 
 package com.replaymod.replaystudio.viaversion;
 
-import com.replaymod.replaystudio.lib.viaversion.api.connection.ConnectionManager;
-import com.replaymod.replaystudio.lib.viaversion.api.connection.UserConnection;
+import com.viaversion.viaversion.api.connection.ConnectionManager;
+import com.viaversion.viaversion.api.connection.UserConnection;
 
 import java.util.Collections;
 import java.util.Map;

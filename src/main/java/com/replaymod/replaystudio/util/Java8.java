@@ -18,7 +18,7 @@
  */
 package com.replaymod.replaystudio.util;
 
-import com.replaymod.replaystudio.lib.guava.base.Supplier;
+import com.google.common.base.Supplier;
 
 import java.util.Map;
 

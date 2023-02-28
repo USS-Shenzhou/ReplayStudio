@@ -21,9 +21,9 @@ package com.replaymod.replaystudio.rar.containers;
 
 import com.github.steveice10.packetlib.io.NetInput;
 import com.github.steveice10.packetlib.io.NetOutput;
-import com.replaymod.replaystudio.lib.guava.collect.ListMultimap;
-import com.replaymod.replaystudio.lib.guava.collect.Multimaps;
-import com.replaymod.replaystudio.lib.viaversion.api.minecraft.chunks.PaletteType;
+import com.google.common.collect.ListMultimap;
+import com.google.common.collect.Multimaps;
+import com.viaversion.viaversion.api.minecraft.chunks.PaletteType;
 import com.replaymod.replaystudio.protocol.Packet;
 import com.replaymod.replaystudio.protocol.PacketTypeRegistry;
 import com.replaymod.replaystudio.protocol.packets.PacketBlockChange;

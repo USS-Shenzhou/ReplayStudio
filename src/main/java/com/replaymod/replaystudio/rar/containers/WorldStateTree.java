@@ -19,12 +19,12 @@
 
 package com.replaymod.replaystudio.rar.containers;
 
-import com.github.steveice10.netty.buffer.ByteBuf;
-import com.github.steveice10.netty.buffer.Unpooled;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import com.github.steveice10.packetlib.io.NetInput;
 import com.github.steveice10.packetlib.io.NetOutput;
 import com.github.steveice10.packetlib.tcp.io.ByteBufNetOutput;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.version.ProtocolVersion;
+import com.viaversion.viaversion.api.protocol.version.ProtocolVersion;
 import com.replaymod.replaystudio.protocol.Packet;
 import com.replaymod.replaystudio.protocol.PacketType;
 import com.replaymod.replaystudio.protocol.PacketTypeRegistry;

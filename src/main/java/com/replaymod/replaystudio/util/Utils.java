@@ -18,9 +18,9 @@
  */
 package com.replaymod.replaystudio.util;
 
-import com.github.steveice10.netty.buffer.ByteBuf;
-import com.github.steveice10.netty.buffer.Unpooled;
-import com.github.steveice10.netty.util.ReferenceCountUtil;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
+import io.netty.util.ReferenceCountUtil;
 import com.github.steveice10.packetlib.io.NetInput;
 import com.github.steveice10.packetlib.io.NetOutput;
 import com.github.steveice10.packetlib.tcp.io.ByteBufNetInput;

@@ -18,13 +18,13 @@
  */
 package com.replaymod.replaystudio.viaversion;
 
-import com.replaymod.replaystudio.lib.viaversion.api.ViaAPI;
-import com.replaymod.replaystudio.lib.viaversion.api.command.ViaCommandSender;
-import com.replaymod.replaystudio.lib.viaversion.api.configuration.ConfigurationProvider;
-import com.replaymod.replaystudio.lib.viaversion.api.configuration.ViaVersionConfig;
-import com.replaymod.replaystudio.lib.viaversion.api.platform.PlatformTask;
-import com.replaymod.replaystudio.lib.viaversion.api.platform.ViaPlatform;
-import com.replaymod.replaystudio.lib.viaversion.libs.gson.JsonObject;
+import com.viaversion.viaversion.api.ViaAPI;
+import com.viaversion.viaversion.api.command.ViaCommandSender;
+import com.viaversion.viaversion.api.configuration.ConfigurationProvider;
+import com.viaversion.viaversion.api.configuration.ViaVersionConfig;
+import com.viaversion.viaversion.api.platform.PlatformTask;
+import com.viaversion.viaversion.api.platform.ViaPlatform;
+import com.viaversion.viaversion.libs.gson.JsonObject;
 
 import java.io.File;
 import java.util.UUID;

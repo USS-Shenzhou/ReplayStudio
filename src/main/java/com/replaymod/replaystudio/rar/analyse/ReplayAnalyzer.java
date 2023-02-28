@@ -41,7 +41,7 @@ import com.replaymod.replaystudio.rar.state.Chunk;
 import com.replaymod.replaystudio.rar.state.Entity;
 import com.replaymod.replaystudio.rar.state.Replay;
 import com.replaymod.replaystudio.rar.state.Weather;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.version.ProtocolVersion;
+import com.viaversion.viaversion.api.protocol.version.ProtocolVersion;
 import com.replaymod.replaystudio.rar.state.World;
 import com.replaymod.replaystudio.util.IPosition;
 import com.replaymod.replaystudio.util.Location;

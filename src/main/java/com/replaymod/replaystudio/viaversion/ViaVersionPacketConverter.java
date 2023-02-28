@@ -18,21 +18,21 @@
  */
 package com.replaymod.replaystudio.viaversion;
 
-import com.github.steveice10.netty.buffer.ByteBuf;
-import com.github.steveice10.netty.channel.ChannelFuture;
-import com.github.steveice10.netty.channel.embedded.EmbeddedChannel;
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.embedded.EmbeddedChannel;
 import com.github.steveice10.packetlib.tcp.io.ByteBufNetInput;
-import com.replaymod.replaystudio.lib.viaversion.api.Via;
-import com.replaymod.replaystudio.lib.viaversion.api.connection.ProtocolInfo;
-import com.replaymod.replaystudio.lib.viaversion.api.connection.UserConnection;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.ProtocolPathEntry;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.packet.Direction;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.packet.PacketWrapper;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.packet.State;
-import com.replaymod.replaystudio.lib.viaversion.connection.UserConnectionImpl;
-import com.replaymod.replaystudio.lib.viaversion.protocol.ProtocolPipelineImpl;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.ProtocolPipeline;
-import com.replaymod.replaystudio.lib.viaversion.exception.CancelException;
+import com.viaversion.viaversion.api.Via;
+import com.viaversion.viaversion.api.connection.ProtocolInfo;
+import com.viaversion.viaversion.api.connection.UserConnection;
+import com.viaversion.viaversion.api.protocol.ProtocolPathEntry;
+import com.viaversion.viaversion.api.protocol.packet.Direction;
+import com.viaversion.viaversion.api.protocol.packet.PacketWrapper;
+import com.viaversion.viaversion.api.protocol.packet.State;
+import com.viaversion.viaversion.connection.UserConnectionImpl;
+import com.viaversion.viaversion.protocol.ProtocolPipelineImpl;
+import com.viaversion.viaversion.api.protocol.ProtocolPipeline;
+import com.viaversion.viaversion.exception.CancelException;
 
 import java.io.IOException;
 import java.util.ArrayList;

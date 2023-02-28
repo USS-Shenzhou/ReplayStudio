@@ -18,12 +18,12 @@
  */
 package com.replaymod.replaystudio.io;
 
-import com.github.steveice10.netty.buffer.ByteBuf;
-import com.github.steveice10.netty.buffer.ByteBufAllocator;
-import com.github.steveice10.netty.buffer.PooledByteBufAllocator;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBufAllocator;
+import io.netty.buffer.PooledByteBufAllocator;
 import com.github.steveice10.packetlib.tcp.io.ByteBufNetInput;
 import com.replaymod.replaystudio.PacketData;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.packet.State;
+import com.viaversion.viaversion.api.protocol.packet.State;
 import com.replaymod.replaystudio.protocol.Packet;
 import com.replaymod.replaystudio.protocol.PacketType;
 import com.replaymod.replaystudio.protocol.PacketTypeRegistry;

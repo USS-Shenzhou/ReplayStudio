@@ -27,7 +27,7 @@ import java.util.List;
 import com.replaymod.replaystudio.protocol.Packet;
 import com.replaymod.replaystudio.protocol.PacketType;
 import com.replaymod.replaystudio.protocol.PacketTypeRegistry;
-import com.replaymod.replaystudio.lib.viaversion.api.protocol.version.ProtocolVersion;
+import com.viaversion.viaversion.api.protocol.version.ProtocolVersion;
 
 public class PacketUpdateLight {
     @SuppressWarnings("MismatchedReadAndWriteOfArray") // it's supposed to be empty. duh.

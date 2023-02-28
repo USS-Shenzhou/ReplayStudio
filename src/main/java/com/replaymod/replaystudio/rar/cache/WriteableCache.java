@@ -19,8 +19,8 @@
 
 package com.replaymod.replaystudio.rar.cache;
 
-import com.github.steveice10.netty.buffer.ByteBuf;
-import com.github.steveice10.netty.buffer.Unpooled;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import com.github.steveice10.packetlib.io.NetOutput;
 import com.github.steveice10.packetlib.io.stream.StreamNetOutput;
 import com.replaymod.replaystudio.util.ByteBufExtNetOutput;
